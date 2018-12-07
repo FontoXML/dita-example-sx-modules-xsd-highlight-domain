@@ -28,7 +28,7 @@
 		"description": "t__Applies a horizontal line through the middle of the text.",
 		"icon": "strikethrough",
 		"steps": {
-			"type": "operation/toggle-inline-frame-element",
+			"type": "operation/toggle-inline-formatting-element",
 			"data": {
 				"nodeName": "line-through"
 			}
@@ -38,7 +38,7 @@
 		"label": "t__Overline",
 		"description": "t__Applies a horizontal line above the text.",
 		"steps": {
-			"type": "operation/toggle-inline-frame-element",
+			"type": "operation/toggle-inline-formatting-element",
 			"data": {
 				"nodeName": "overline"
 			}
@@ -72,7 +72,7 @@
 		"label": "t__Teletype",
 		"description": "t__Applies monospace highlighting to the text.",
 		"steps": {
-			"type": "operation/toggle-inline-frame-element",
+			"type": "operation/toggle-inline-formatting-element",
 			"data": {
 				"nodeName": "tt"
 			}
